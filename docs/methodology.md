@@ -55,7 +55,7 @@ A bounded reservoir sample is maintained for visualizations.
 This allows representative visualization without storing every
 observation in memory.
 
-### Garbage Collection
+### 6. Garbage Collection
 
 Python's built-in `gc` module is used during data processing to
 support memory management.
@@ -66,6 +66,7 @@ using `gc.collect()`.
 
 This supports the project's objective of reducing unnecessary memory
 usage when processing large datasets.
+
 
 ## Analysis
 
