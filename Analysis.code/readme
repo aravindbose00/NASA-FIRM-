@@ -1,1 +1,61 @@
+# Source Code
+
+This directory contains the main Python source code for the
+NASA FIRMS Active Fire Data Analysis project.
+
+## Main File
+
+`Untitled4(2)(1).ipynb`
+
+This file contains the complete implementation used to analyze the
+NASA FIRMS MODIS and VIIRS active-fire datasets.
+
+## Main Components
+
+The source code includes:
+
+- Memory-efficient CSV data loading
+- Explicit data type definitions
+- Chunk-based data processing
+- Single-pass aggregation
+- Fire Radiative Power (FRP) statistical analysis
+- Missing-value analysis
+- Day and night fire-detection analysis
+- Monthly fire-detection analysis
+- Reservoir sampling
+- Data visualization
+
+## Sustainable Computational Approach
+
+The program is designed to reduce unnecessary memory usage when
+processing large datasets.
+
+Instead of loading the complete datasets into memory, the CSV files
+are processed in smaller chunks.
+
+The project also uses optimized numerical data types and categorical
+data types where appropriate.
+
+## Code Organization
+
+The Python code is organized using:
+
+- Classes
+- Methods
+- Functions
+- Type hints
+- Docstrings
+- Reusable plotting functions
+
+The `FIRMSAnalyzer` class contains the main data-analysis methods,
+while separate functions are used for data loading and visualization.
+
+## Input Data
+
+The program reads the following files from the `data/` directory:
+
+- `small_dataset1.csv` — VIIRS J1
+- `small_dataset2.csv` — MODIS
+- `small_dataset3.csv` — VIIRS SNPP
+
 
