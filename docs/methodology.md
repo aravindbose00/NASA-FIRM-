@@ -55,6 +55,18 @@ A bounded reservoir sample is maintained for visualizations.
 This allows representative visualization without storing every
 observation in memory.
 
+### Garbage Collection
+
+Python's built-in `gc` module is used during data processing to
+support memory management.
+
+After large temporary objects or processed chunks are no longer
+required, they can be deleted and garbage collection can be triggered
+using `gc.collect()`.
+
+This supports the project's objective of reducing unnecessary memory
+usage when processing large datasets.
+
 ## Analysis
 
 The project analyzes:
@@ -67,17 +79,7 @@ The project analyzes:
 - Geographic distribution of active-fire detections
 - Differences between satellite datasets
 - 
-### Garbage Collection
 
-Python's built-in `gc` module is used during data processing to
-support memory management.
-
-After large temporary objects or processed chunks are no longer
-required, they can be deleted and garbage collection can be triggered
-using `gc.collect()`.
-
-This supports the project's objective of reducing unnecessary memory
-usage when processing large datasets.
 
 ## Sustainability
 
