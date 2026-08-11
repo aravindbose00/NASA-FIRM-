@@ -39,12 +39,16 @@ NASA-FIRMS-Analysis/
 │   ├── nasa_firms_analysis.ipynb
 │   └── README.md
 │
+├── tests/
+│   └── tests_analysis.py
+│
 ├── doc/
 │   └── methodology.md
 │
 ├── README.md
 ├── requirements.txt
-└── pyproject.toml
+├── pyproject.toml
+└── .gitignore
 ```
 
 ## Dataset
