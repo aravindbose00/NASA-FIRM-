@@ -1,4 +1,4 @@
 numpy
 pandas
 matplotlib
-gc (garbage collector)
+
